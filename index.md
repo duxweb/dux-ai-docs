@@ -93,21 +93,20 @@ quickStart:
         composer create-project duxweb/dux-ai
         cd dux-ai
     - step: "02"
-      icon: "cog-8-tooth"
-      color: "green"
-      title: "初始化数据"
-      description: "同步数据库与后台菜单"
-      code: |
-        php dux db:sync
-        php dux menu:sync
-    - step: "03"
       icon: "rocket-launch"
       color: "purple"
       title: "启动服务"
-      description: "进入后台并开始配置服务商、模型、智能体"
+      description: "启动 php 的 web 服务"
       code: |
         php -S localhost:8000 -t public
-        # 浏览器打开 http://localhost:8000/manage/
+    
+    - step: "03"
+      icon: "cog-8-tooth"
+      color: "green"
+      title: "安装向导"
+      description: "启动服务后打开安装向导进行安装系统"
+      code: |
+        # 浏览器打开 http://localhost:8000/
   helpText: "继续阅读完整文档"
   helpLink: "/usage/quick-start"
   helpLinkText: "查看快速开始"
