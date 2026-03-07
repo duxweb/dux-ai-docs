@@ -1,0 +1,29 @@
+{
+  "name": "dux-ai-docs",
+  "version": "1.0.0",
+  "description": "Dux AI 官方文档",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "@duxweb/vitepress-theme": "^1.1.6",
+    "vitepress": "^1.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duxweb/dux-ai-docs.git"
+  },
+  "keywords": [
+    "dux",
+    "ai",
+    "php",
+    "documentation",
+    "vitepress"
+  ],
+  "author": "DuxWeb",
+  "license": "MIT",
+  "homepage": "https://dux-ai.docs.dux.plus"
+}
