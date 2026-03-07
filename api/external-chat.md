@@ -38,7 +38,15 @@ Authorization: Bearer {token}
       "id": "customer_service",
       "object": "model",
       "owned_by": "agent",
-      "name": "客服助手"
+      "name": "客服助手",
+      "attachments": {
+        "enabled": {
+          "image": true,
+          "file": true,
+          "audio": false,
+          "video": false
+        }
+      }
     }
   ]
 }
@@ -76,18 +84,20 @@ Content-Type: application/json
 }
 ```
 
-### 主要字段
+### 常见字段
 
 - `model`：当前 token 可访问的智能体编码
 - `messages`：对话上下文，格式参考 OpenAI Chat
 - `stream`：是否启用流式返回
+- `session_id`：可选，传已有会话时继续原会话
 
-### 示例返回（非流式）
+### 返回示例（非流式）
 
 ```json
 {
   "id": "chatcmpl_xxx",
   "object": "chat.completion",
+  "session_id": 12,
   "choices": [
     {
       "index": 0,
@@ -140,7 +150,7 @@ Content-Type: application/json
 
 ### `model` 不是厂商模型名
 
-这里更常见的是智能体编码或当前 token 对应的智能体映射，不是 `gpt-4.1` 这类底层模型名。
+这里更常见的是智能体编码，不是 `gpt-4.1` 这类底层模型名。
 
 ### 智能体主模型必须是聊天模型
 

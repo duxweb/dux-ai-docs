@@ -35,6 +35,7 @@ export default withDuxTheme({
           {
             text: '核心项目',
             items: [
+              { text: 'Dux PHP Admin', link: 'https://github.com/duxweb/dux-php-admin' },
               { text: 'Dux Lite', link: 'https://lite2.docs.dux.plus/' },
               { text: 'DVHA', link: 'https://dvha.docs.dux.plus/' },
               { text: 'Dux App', link: 'https://duxapp.com/' },
@@ -112,9 +113,9 @@ export default withDuxTheme({
           text: '工作流',
           items: [
             { text: '工作流概览', link: '/usage/workflow/overview' },
-            { text: '开始与结束节点', link: '/usage/workflow/start-end' },
-            { text: '图片生成节点', link: '/usage/workflow/image-generate' },
-            { text: '视频生成节点', link: '/usage/workflow/video-generate' },
+            { text: '输入与输出节点', link: '/usage/workflow/start-end' },
+            { text: '工作流能力说明', link: '/usage/workflow/capabilities' },
+            { text: '模型与能力协作', link: '/usage/workflow/model-cooperation' },
             { text: '异步等待与恢复', link: '/usage/workflow/async-wait' },
             { text: '执行日志与排障', link: '/usage/workflow/logs' },
           ],
@@ -134,6 +135,9 @@ export default withDuxTheme({
             { text: '工作流开发', link: '/dev/flow' },
             { text: '机器人桥接', link: '/dev/bot-bridge' },
             { text: '服务商扩展', link: '/dev/provider' },
+            { text: '注册机器人驱动', link: '/dev/register-bot-driver' },
+            { text: '注册解析驱动', link: '/dev/register-parse-driver' },
+            { text: '注册服务商协议', link: '/dev/register-provider-protocol' },
           ],
         },
       ],

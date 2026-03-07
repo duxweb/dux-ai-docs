@@ -10,28 +10,30 @@
 
 ## 1. 创建 Dux AI 项目
 
+
+```bash
+git clone https://github.com/duxweb/dux-ai.git dux-ai
+cd dux-ai
+composer install
+```
+
+或者
+
 ```bash
 composer create-project duxweb/dux-ai
 cd dux-ai
 ```
 
-## 2. 初始化基础数据
-
-```bash
-php dux db:sync
-php dux menu:sync
-```
-
-## 3. 启动本地服务
+## 2. 启动本地服务
 
 ```bash
 php -S localhost:8000 -t public
 ```
 
-浏览器访问：
+## 3. 访问安装向导
 
 ```text
-http://localhost:8000/manage/
+http://localhost:8000/
 ```
 
 ## 4. 进入 AI 后台模块
