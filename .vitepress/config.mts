@@ -29,6 +29,7 @@ export default withDuxTheme({
       { text: '使用', link: '/usage/introduction', activeMatch: '/usage/' },
       { text: '开发', link: '/dev/overview', activeMatch: '/dev/' },
       { text: 'API', link: '/api/overview', activeMatch: '/api/' },
+      { text: '社区', link: '/community', activeMatch: '/community' },
       {
         text: '生态',
         items: [
