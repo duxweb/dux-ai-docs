@@ -91,3 +91,8 @@ http://localhost:8000/
 - 想接聊天平台：阅读 [快速配置向导](/usage/onboarding) 和 [机器人概览](/usage/bot-overview)
 - 想做知识问答：阅读 [知识库配置](/usage/rag)
 - 想做复杂自动化：阅读 [工作流概览](/usage/workflow/overview)
+
+
+## 9. windows 部署视频
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116193025334758&bvid=BV1QKN3z1EHJ&cid=36550740085&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; height: 500px"></iframe>
