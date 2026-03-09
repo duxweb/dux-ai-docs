@@ -73,3 +73,21 @@ https://github.com/duxweb/dux-ai-desktop
 桌面端版本会跟随 GitHub Release 发布。
 
 如果你是通过 Release 下载安装包，关于窗口里显示的版本号会和当前发布版本保持一致。
+
+## macOS 提示“已损坏，无法打开”怎么办
+
+如果你在 macOS 上下载桌面端后，系统提示：
+
+```text
+“Dux AI”已损坏，无法打开。你应该将它移到废纸篓。
+```
+
+这通常不是文件真的损坏，而是 macOS 的下载隔离策略拦截了未签名或未公证的应用。
+
+可以在终端执行：
+
+```bash
+sudo xattr -rd com.apple.quarantine /Applications/Dux\ AI.app
+```
+
+执行后再重新打开应用即可。
