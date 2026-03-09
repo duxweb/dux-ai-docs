@@ -58,6 +58,7 @@ export default withDuxTheme({
           items: [
             { text: '概览', link: '/usage/introduction' },
             { text: '快速开始', link: '/usage/quick-start' },
+            { text: '桌面端客户端', link: '/usage/desktop' },
             { text: '系统部署', link: '/usage/deployment' },
             { text: '快速配置向导', link: '/usage/onboarding' },
             { text: '场景示例', link: '/usage/scenarios' },

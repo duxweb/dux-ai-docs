@@ -16,6 +16,9 @@ hero:
       text: 开始使用
       link: /usage/introduction
     - theme: alt
+      text: 下载桌面端
+      link: /usage/desktop
+    - theme: alt
       text: 二次开发
       link: /dev/overview
     - theme: alt

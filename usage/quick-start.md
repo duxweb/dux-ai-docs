@@ -88,11 +88,26 @@ http://localhost:8000/
 根据你的目标继续往下看：
 
 - 想正式上线部署：阅读 [系统部署](/usage/deployment)
+- 想直接用桌面端连接服务：阅读 [桌面端客户端](/usage/desktop)
 - 想接聊天平台：阅读 [快速配置向导](/usage/onboarding) 和 [机器人概览](/usage/bot-overview)
 - 想做知识问答：阅读 [知识库配置](/usage/rag)
 - 想做复杂自动化：阅读 [工作流概览](/usage/workflow/overview)
 
+## 9. 桌面端使用
 
-## 9. windows 部署视频
+如果你已经把 Dux AI 服务端跑起来，也可以直接使用桌面端客户端进行连接和对话。
+
+桌面端适合：
+
+- 作为独立聊天入口
+- 直接连接现有 Dux AI 服务
+- 在桌面端发送图片、文档、视频附件
+
+相关说明见：
+
+- [桌面端客户端](/usage/desktop)
+
+
+## 10. windows 部署视频
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116193025334758&bvid=BV1QKN3z1EHJ&cid=36550740085&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; height: 500px"></iframe>
