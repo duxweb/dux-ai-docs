@@ -4,6 +4,7 @@ logs
 .vitepress/dist
 .claude
 .cunzhi-memory
+.temp
 
 
 # compiled output

@@ -29,6 +29,7 @@ export default withDuxTheme({
       { text: '使用', link: '/usage/introduction', activeMatch: '/usage/' },
       { text: '开发', link: '/dev/overview', activeMatch: '/dev/' },
       { text: 'API', link: '/api/overview', activeMatch: '/api/' },
+      { text: '扩展', link: '/extensions/device-control/introduction', activeMatch: '/extensions/' },
       { text: '社区', link: '/community', activeMatch: '/community' },
       {
         text: '生态',
@@ -121,6 +122,17 @@ export default withDuxTheme({
             { text: '模型与能力协作', link: '/usage/workflow/model-cooperation' },
             { text: '异步等待与恢复', link: '/usage/workflow/async-wait' },
             { text: '执行日志与排障', link: '/usage/workflow/logs' },
+          ],
+        },
+      ],
+      '/extensions/': [
+        {
+          text: '设备控制',
+          items: [
+            { text: '简介', link: '/extensions/device-control/introduction' },
+            { text: '安装', link: '/extensions/device-control/install' },
+            { text: '使用教程', link: '/extensions/device-control/tutorial' },
+            { text: '开发说明', link: '/extensions/device-control/development' },
           ],
         },
       ],
