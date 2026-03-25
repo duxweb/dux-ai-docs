@@ -14,5 +14,12 @@
 ## 微信群
 
 <center>
-  <img src="/images/wechat-qrcode.png" alt="Dux AI 微信交流群" width="250" />
+  <img src="/images/wechat-qrcode.jpg" alt="Dux AI 微信交流群" width="250" />
+</center>
+
+
+可以加作者微信入群
+
+<center>
+  <img src="/images/wechat-qrcode-s.jpg" alt="作者微信" width="250" />
 </center>
