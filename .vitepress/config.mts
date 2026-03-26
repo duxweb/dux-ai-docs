@@ -27,6 +27,7 @@ export default withDuxTheme({
     siteTitle: 'Dux AI',
     nav: [
       { text: '使用', link: '/usage/introduction', activeMatch: '/usage/' },
+      { text: '基础框架', link: '/foundation/introduction', activeMatch: '/foundation/' },
       { text: '开发', link: '/dev/overview', activeMatch: '/dev/' },
       { text: 'API', link: '/api/overview', activeMatch: '/api/' },
       { text: '扩展', link: '/extensions/device-control/introduction', activeMatch: '/extensions/' },
@@ -53,6 +54,133 @@ export default withDuxTheme({
       },
     ],
     sidebar: {
+      '/foundation/': [
+        {
+          text: '开始',
+          items: [
+            { text: '基础框架概览', link: '/foundation/introduction' },
+            { text: '基础框架快速开始', link: '/foundation/getting-started' },
+            { text: '一体化模块架构', link: '/foundation/architecture' },
+            { text: '目录结构', link: '/foundation/directory-structure' },
+          ],
+        },
+        {
+          text: '基础配置',
+          items: [
+            { text: '系统配置', link: '/foundation/configuration' },
+            { text: '数据库配置', link: '/foundation/database' },
+            { text: '缓存配置', link: '/foundation/cache' },
+          ],
+        },
+        {
+          text: '系统使用',
+          items: [
+            { text: 'System 模块概览', link: '/foundation/system-overview' },
+          ],
+        },
+        {
+          text: '开发',
+          items: [
+            { text: '框架开发总览', link: '/foundation/dev/overview' },
+            { text: '模块开发完整实战', link: '/foundation/module-workflow' },
+          ],
+        },
+        {
+          text: '部署运维',
+          items: [
+            { text: '部署与运维', link: '/foundation/deployment' },
+            { text: '故障排除', link: '/foundation/troubleshooting' },
+            { text: '常见问题', link: '/foundation/faq' },
+          ],
+        },
+      ],
+      '/foundation/dev/': [
+        {
+          text: '开始',
+          items: [
+            { text: '框架开发总览', link: '/foundation/dev/overview' },
+            { text: '项目安装', link: '/foundation/dev/quick-start/installation' },
+            { text: '环境搭建', link: '/foundation/dev/quick-start/environment' },
+            { text: '目录结构', link: '/foundation/dev/quick-start/directory-structure' },
+            { text: '第一个 API', link: '/foundation/dev/quick-start/first-api' },
+            { text: '第一个模块', link: '/foundation/dev/quick-start/first-module' },
+          ],
+        },
+        {
+          text: '核心概念',
+          items: [
+            { text: '架构概述', link: '/foundation/dev/core/architecture' },
+            { text: '模块系统', link: '/foundation/dev/core/modules' },
+            { text: '请求生命周期', link: '/foundation/dev/core/lifecycle' },
+            { text: '依赖注入', link: '/foundation/dev/core/dependency-injection' },
+            { text: 'API 签名', link: '/foundation/dev/core/signature' },
+          ],
+        },
+        {
+          text: '模块开发',
+          items: [
+            { text: '模块结构', link: '/foundation/dev/module/structure' },
+            { text: '控制器开发', link: '/foundation/dev/module/controllers' },
+            { text: '模型与数据库', link: '/foundation/dev/module/models' },
+            { text: '服务层开发', link: '/foundation/dev/module/services' },
+            { text: '事件系统', link: '/foundation/dev/module/events' },
+          ],
+        },
+        {
+          text: '前端开发',
+          items: [
+            { text: 'DVHA 框架', link: '/foundation/dev/frontend/dvha' },
+            { text: '开发流程', link: '/foundation/dev/frontend/dev-flow' },
+            { text: '前端基座', link: '/foundation/dev/frontend/base' },
+            { text: '开发说明', link: '/foundation/dev/frontend/components' },
+            { text: '表单设计', link: '/foundation/dev/frontend/forms' },
+            { text: '表格设计', link: '/foundation/dev/frontend/tables' },
+            { text: 'Hooks 使用', link: '/foundation/dev/frontend/hooks' },
+            { text: '状态管理', link: '/foundation/dev/frontend/state' },
+          ],
+        },
+        {
+          text: '后端开发',
+          items: [
+            { text: 'API 开发', link: '/foundation/dev/backend/api' },
+            { text: '数据库操作', link: '/foundation/dev/backend/database' },
+            { text: '数据验证', link: '/foundation/dev/backend/validation' },
+            { text: '权限系统', link: '/foundation/dev/backend/permissions' },
+            { text: '缓存系统', link: '/foundation/dev/backend/cache' },
+            { text: '队列系统', link: '/foundation/dev/backend/queue' },
+            { text: '日志系统', link: '/foundation/dev/backend/logging' },
+            { text: '文件上传', link: '/foundation/dev/backend/file-upload' },
+            { text: '分布式锁', link: '/foundation/dev/backend/lock' },
+          ],
+        },
+        {
+          text: '系统服务',
+          items: [
+            { text: '上传服务', link: '/foundation/dev/service/upload' },
+            { text: '配置服务', link: '/foundation/dev/service/config' },
+            { text: '存储服务', link: '/foundation/dev/service/storage' },
+            { text: '统计服务', link: '/foundation/dev/service/stats' },
+            { text: '菜单服务', link: '/foundation/dev/service/menu' },
+          ],
+        },
+        {
+          text: '最佳实践',
+          items: [
+            { text: '代码规范', link: '/foundation/dev/best-practices/coding-standards' },
+            { text: '性能优化', link: '/foundation/dev/best-practices/performance' },
+            { text: '安全实践', link: '/foundation/dev/best-practices/security' },
+            { text: '测试建议', link: '/foundation/dev/best-practices/testing' },
+          ],
+        },
+        {
+          text: '工具与部署',
+          items: [
+            { text: '开发工具', link: '/foundation/dev/tools-deployment/development-tools' },
+            { text: '命令速查表', link: '/foundation/dev/tools-deployment/cli-cheatsheet' },
+            { text: '部署指南', link: '/foundation/dev/tools-deployment/deployment' },
+          ],
+        },
+      ],
       '/usage/': [
         {
           text: '入门',

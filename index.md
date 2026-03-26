@@ -16,14 +16,14 @@ hero:
       text: 开始使用
       link: /usage/introduction
     - theme: alt
+      text: 基础框架
+      link: /foundation/introduction
+    - theme: alt
       text: 下载桌面端
       link: /usage/desktop
     - theme: alt
       text: 二次开发
       link: /dev/overview
-    - theme: alt
-      text: API 对接
-      link: /api/overview
 
 features:
   - icon: chat-bubble-left-right
@@ -114,3 +114,27 @@ quickStart:
   helpLink: "/usage/quick-start"
   helpLinkText: "查看快速开始"
 ---
+
+## 平台组成
+
+Dux AI 当前主推的是一套完整平台，而不是只面向 AI 场景的独立面板。
+
+你可以把它拆成两部分来看：
+
+| 部分 | 负责什么 | 从哪里开始看 |
+| --- | --- | --- |
+| 基础框架 | 中后台、模块化、资源接口、菜单权限、系统模块、部署与运维 | [基础框架概览](/foundation/introduction) |
+| AI 模块 | 智能体、机器人、知识库、工作流、服务商、模型与 AI API | [使用概览](/usage/introduction) |
+
+也就是说：
+
+- 想先把 AI 跑起来，优先看 [快速开始](/usage/quick-start)
+- 想先理解底座怎么搭，优先看 [基础框架快速开始](/foundation/getting-started)
+- 想在现有业务系统里继续扩展，优先看 [开发概览](/dev/overview)
+
+## 文档入口
+
+- 想看 Dux AI 怎么配置和使用：进入 [使用](/usage/introduction)
+- 想看 Dux PHP Admin 这套底座怎么组织：进入 [基础框架](/foundation/introduction)
+- 想做 AI 能力二次开发：进入 [开发](/dev/overview)
+- 想直接对接接口：进入 [API](/api/overview)
