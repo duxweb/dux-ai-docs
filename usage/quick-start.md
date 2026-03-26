@@ -12,6 +12,7 @@
 开始之前，建议先确认：
 
 - `PHP 8.4+`
+- `php-redis` 扩展
 - `MySQL 8.0+`（推荐）
 - `Composer`
 
