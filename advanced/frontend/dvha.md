@@ -1,6 +1,6 @@
 # DVHA 框架
 
-后台前端使用 DVHA + Naive UI，入口在 `web/main.ts` 与 `web/config.ts`。
+后台前端使用 DVHA Pro（运行时基于 DVHA）+ Naive UI，入口在 `web/main.ts` 与 `web/config.ts`。
 
 ## 运行时配置
 
@@ -17,7 +17,7 @@ window.duxConfig = {
   manage: [
     {
       name: 'admin',
-      title: 'Dux PHP Admin',
+      title: 'Dux AI',
       routePrefix: '/admin',
       apiBasePath: '/admin',
       apiRoutePath: '/router',
@@ -39,7 +39,7 @@ window.duxConfig = {
 
 ## 进一步阅读
 
-- [开发流程](/foundation/dev/frontend/dev-flow)
+- [开发流程](/advanced/frontend/dev-flow)
 
 优先使用 DVHA 提供的 Dux 组件：
 

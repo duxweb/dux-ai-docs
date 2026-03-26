@@ -66,7 +66,7 @@ class App extends AppExtend
   <DuxPage>
     <DuxPageHeader title="示例页面" />
     <DuxPageBody>
-      <div class="p-4">Hello Dux PHP Admin</div>
+      <div class="p-4">Hello Dux AI</div>
     </DuxPageBody>
   </DuxPage>
 </template>

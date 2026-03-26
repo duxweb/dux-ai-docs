@@ -4,7 +4,7 @@
 
 ## 默认配置
 
-当前基础框架默认使用 SQLite：
+当前框架层默认使用 SQLite：
 
 ```toml
 [db.drivers.default]
@@ -57,4 +57,4 @@ php dux db:restore
 
 在 Dux AI 主项目里，AI 模块自己的数据表同样沿用这套数据库同步方式。
 
-如果你后面还要看 AI 模块开发，可以继续阅读 [开发概览](/dev/overview)。
+如果你后面还要看 AI 模块开发，可以继续阅读 [开发概览](/extensions/ai/overview)。

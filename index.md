@@ -1,13 +1,13 @@
 ---
 layout: home
 title: Dux AI
-titleTemplate: 基于 Dux PHP Admin 的智能体与业务对话平台
+titleTemplate: 一体化模块化 AI 中后台平台
 
 hero:
   name: Dux AI
-  text: 用 Dux PHP Admin 快速构建可落地的 AI 业务系统
-  tagline: 把智能体、机器人、知识库、工作流和业务系统放进同一套中后台架构里，让 AI 真正能上线、能扩展、能交付。
-  subtitle: 智能体 • 机器人 • 知识库 • 文件解析 • 图片/视频生成 • 工作流
+  text: 把 AI 能力直接接进业务系统的一体化平台
+  tagline: 基于 Dux Lite + DVHA Pro，把智能体、知识库、工作流和业务系统放进同一套模块化中后台，让 AI 真正可上线、可交付、可持续扩展。
+  subtitle: 智能体 • 机器人 • 知识库 • 文件解析 • 多媒体生成 • 工作流
   mockUrl: "dux.cn"
   image:
     src: /hero.png
@@ -16,70 +16,70 @@ hero:
       text: 开始使用
       link: /usage/introduction
     - theme: alt
-      text: 基础框架
+      text: 框架底座
       link: /foundation/introduction
     - theme: alt
       text: 下载桌面端
       link: /usage/desktop
     - theme: alt
       text: 二次开发
-      link: /dev/overview
+      link: /extensions/
 
 features:
   - icon: chat-bubble-left-right
     color: blue
-    title: 智能体、机器人、知识库、工作流统一在一个平台里
-    details: 不是零散拼装 AI 工具，而是把对话入口、资料能力、任务执行和业务系统统一收口。
+    title: 统一平台架构
+    details: 智能体、机器人、知识库、工作流和业务系统统一在一套平台里，不再是零散拼装的 AI 工具集合。
   - icon: cpu-chip
     color: green
-    title: 智能体能力可持续扩展
-    details: 可以继续接 HTTP、函数、知识库、多媒体、工作流与更多第三方工具能力。
+    title: 后台与 AI 能力一体交付
+    details: 后台管理、资源接口、权限菜单和 AI 能力统一在同一工程内开发，更适合真实项目交付。
   - icon: bolt
     color: amber
     title: 同步与异步任务都能处理
     details: 普通问答可直接返回，图片、视频、轮询类任务则可挂起、恢复和追踪状态。
   - icon: server-stack
     color: purple
-    title: 内置 MCP 工具接入能力
-    details: 可继续连接魔搭等更多外部工具和服务能力，让智能体真正具备执行力。
+    title: 能力边界可持续扩展
+    details: 支持接入 HTTP、函数、知识库、多媒体、工作流与更多第三方工具能力。
   - icon: document-text
     color: indigo
-    title: 文件解析、图片、视频能力可直接接入
-    details: 除了文字对话，还可以继续扩展文件解析、图片生成、视频生成等多媒体能力。
+    title: 多媒体与文档链路可直接落地
+    details: 文件解析、图片生成、视频生成等能力可直接接进对话链路和业务流程。
   - icon: squares-2x2
     color: teal
     title: 服务商、模型、智能体三层解耦
     details: 方便按业务拆分能力、替换厂商、控制成本，也更适合后续长期维护。
   - icon: shopping-bag
     color: rose
-    title: 可通过应用商店持续扩展
-    details: 后续适合继续安装新的智能体、工作流模板和行业模块，让系统持续增长。
+    title: 应用商店支持
+    details: 支持继续安装新的智能体、工作流模板和行业模块，让系统能力持续增长。
   - icon: device-phone-mobile
     color: orange
-    title: 同时适合传统 API 与多端开发
-    details: 除了 AI 能力本身，依然可以继续对接移动端、PC 端、H5 和传统 REST API。
+    title: 适配 AI 开发工具
+    details: 提供 Dux Skills，可让 Codex、Claude Code 等工具直接参与开发，减少反复查文档和手工摸索。
   - icon: cube
     color: cyan
-    title: 基于 Dux PHP Admin
-    details: 天然拥有模块化中后台能力，适合继续扩展后台页面、资源接口、业务模块和系统能力。
+    title: 领先的一体式模块化架构
+    details: 基于 Dux Lite + DVHA Pro 的实时渲染中后台架构，无需编译前端，只专注全栈业务开发。
 
 featuresConfig:
   title: 为什么选择 Dux AI？
-  description: 它不是一个只会聊天的演示工具，而是一套面向真实业务、可持续扩展、可直接交付的 AI 中后台平台。
+  description: 它不是只会聊天的 AI 演示工具，而是一套面向真实业务、可直接接入现有系统的 AI 中后台平台。
   extraSection:
-    title: 核心能力
-    description: 从安装、配置、对接到业务落地，形成一条完整链路
+    title: 核心优势
+    description: 从后台、接口、权限到智能体、知识库、工作流，统一在一套模块化架构中落地。
     tags:
-      - Dux PHP Admin
+      - Dux Lite
+      - DVHA Pro
+      - 模块化中后台
       - 智能体
       - 机器人
       - 知识库
-      - 文件解析
-      - 图片生成
-      - 视频生成
       - 工作流
-      - MCP 工具调用
-      - 企业接入
+      - 实时渲染后台
+      - AI 开发工具
+      - 企业交付
 
 quickStart:
   badge: 10 分钟起步
@@ -114,27 +114,3 @@ quickStart:
   helpLink: "/usage/quick-start"
   helpLinkText: "查看快速开始"
 ---
-
-## 平台组成
-
-Dux AI 当前主推的是一套完整平台，而不是只面向 AI 场景的独立面板。
-
-你可以把它拆成两部分来看：
-
-| 部分 | 负责什么 | 从哪里开始看 |
-| --- | --- | --- |
-| 基础框架 | 中后台、模块化、资源接口、菜单权限、系统模块、部署与运维 | [基础框架概览](/foundation/introduction) |
-| AI 模块 | 智能体、机器人、知识库、工作流、服务商、模型与 AI API | [使用概览](/usage/introduction) |
-
-也就是说：
-
-- 想先把 AI 跑起来，优先看 [快速开始](/usage/quick-start)
-- 想先理解底座怎么搭，优先看 [基础框架快速开始](/foundation/getting-started)
-- 想在现有业务系统里继续扩展，优先看 [开发概览](/dev/overview)
-
-## 文档入口
-
-- 想看 Dux AI 怎么配置和使用：进入 [使用](/usage/introduction)
-- 想看 Dux PHP Admin 这套底座怎么组织：进入 [基础框架](/foundation/introduction)
-- 想做 AI 能力二次开发：进入 [开发](/dev/overview)
-- 想直接对接接口：进入 [API](/api/overview)

@@ -8,5 +8,5 @@
 
 如果你关注的是菜单和权限如何在代码里协作，也可以继续看：
 
-- [菜单服务](/foundation/dev/service/menu)
-- [权限系统](/foundation/dev/backend/permissions)
+- [菜单服务](/advanced/service/menu)
+- [权限系统](/advanced/backend/permissions)

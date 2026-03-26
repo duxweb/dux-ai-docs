@@ -1,6 +1,6 @@
-# 基础框架快速开始
+# 快速开始
 
-这一页讲的是 `Dux PHP Admin` 底座本身的启动方式，不包含 Dux AI 模块额外的服务商、模型、知识库等配置。
+这一页讲的是 Dux AI 项目里框架层与默认模块的启动方式，不展开服务商、模型、知识库等 AI 配置。
 
 如果你要安装完整 Dux AI，请直接看 [Dux AI 快速开始](/usage/quick-start)。
 
@@ -9,6 +9,7 @@
 - `PHP 8.4+`
 - `Composer 2.x`
 - `SQLite` 或 `MySQL 8.x`
+- `php-redis` 扩展
 
 建议先确认 PHP 与 Composer 版本：
 
@@ -20,16 +21,16 @@ composer self-update
 ## 获取代码
 
 ```bash
-git clone https://github.com/duxweb/dux-php-admin.git dux-php-admin
-cd dux-php-admin
+git clone https://github.com/duxweb/dux-ai.git dux-ai
+cd dux-ai
 composer install
 ```
 
 或者
 
 ```bash
-composer create-project duxweb/dux-php-admin
-cd dux-php-admin
+composer create-project duxweb/dux-ai
+cd dux-ai
 ```
 
 ## 数据库说明

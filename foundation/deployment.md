@@ -1,6 +1,6 @@
 # 部署与运维
 
-这一页讲的是基础框架层面的部署要求；如果你部署的是完整 Dux AI，还要再配合阅读 [系统部署](/usage/deployment)。
+这一页讲的是框架层面的部署要求；如果你部署的是完整 Dux AI，还要再配合阅读 [系统部署](/usage/deployment)。
 
 ## 生产部署要点
 
@@ -14,7 +14,7 @@
 server {
     listen 80;
     server_name your-domain.com;
-    root /path/to/dux-php-admin/public;
+    root /path/to/dux-ai/public;
 
     index index.php;
 
@@ -43,7 +43,7 @@ pnpm build
 
 ## 如果你部署的是完整 Dux AI
 
-除了这里的基础框架部署项，还要继续确认：
+除了这里的框架层部署项，还要继续确认：
 
 - AI 模块的计划任务
 - Redis 等运行依赖

@@ -1,6 +1,6 @@
 # 一体化模块架构
 
-这一页讲的是 Dux AI 底层使用的 `Dux PHP Admin` 架构方式。
+这一页讲的是 Dux AI 使用的一体化模块架构。
 
 它的核心不是“前端一套、后端一套”地拆成两份工程，而是把后端接口、权限和后台页面放到同一套模块体系中管理。
 
@@ -14,8 +14,8 @@
 
 可以把它理解成：
 
-- 后端是基座，负责路由、权限、资源、配置和系统能力
-- 页面是模块资源，跟着模块一起组织和加载
+- 后端基于 `Dux Lite`，负责路由、权限、资源、配置和系统能力
+- 管理端基于 `DVHA Pro`，页面跟着模块一起组织和加载
 
 ## 一个模块里通常有什么
 
@@ -42,5 +42,5 @@ app/模块名/
 ## 进一步阅读
 
 - [目录结构](/foundation/directory-structure)
-- [模块开发完整实战](/foundation/module-workflow)
-- [开发概览](/dev/overview)
+- [第一个模块](/advanced/quick-start/first-module)
+- [扩展开发概览](/extensions/ai/overview)

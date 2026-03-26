@@ -43,4 +43,4 @@ port = 5173
 ## 相关页面
 
 - [前端基座工作机制](/foundation/frontend-base)
-- [DVHA 框架](/foundation/dev/frontend/dvha)
+- [DVHA 框架](/advanced/frontend/dvha)

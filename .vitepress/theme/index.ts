@@ -4,6 +4,7 @@ import '@duxweb/vitepress-theme/dist/index.css'
 import './style.css'
 import HomeAdvantageCards from './components/HomeAdvantageCards.vue'
 import ScenarioCards from './components/ScenarioCards.vue'
+import ExtensionCards from './components/ExtensionCards.vue'
 
 export default {
   extends: theme,
@@ -11,5 +12,6 @@ export default {
   enhanceApp({ app }) {
     app.component('HomeAdvantageCards', HomeAdvantageCards)
     app.component('ScenarioCards', ScenarioCards)
+    app.component('ExtensionCards', ExtensionCards)
   },
 }

@@ -1,6 +1,6 @@
 # 配置参考
 
-本页汇总基础框架里最常用的配置项，适合在你已经看过 [系统配置](/foundation/configuration) 后，用来快速查字段。
+本页汇总框架层里最常用的配置项，适合在你已经看过 [系统配置](/foundation/configuration) 后，用来快速查字段。
 
 ## `use.toml`
 

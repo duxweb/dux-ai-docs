@@ -32,4 +32,4 @@ System/Home/index -> app/System/Admin/Home/index.vue
 ## 进一步阅读
 
 - [前端基座更新](/foundation/frontend-base-update)
-- [DVHA 框架](/foundation/dev/frontend/dvha)
+- [DVHA 框架](/advanced/frontend/dvha)

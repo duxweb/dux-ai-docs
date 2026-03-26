@@ -34,5 +34,5 @@ class User extends Resources
 ## 推荐连着看
 
 - [权限说明](/foundation/permissions)
-- [菜单服务](/foundation/dev/service/menu)
-- [权限系统](/foundation/dev/backend/permissions)
+- [菜单服务](/advanced/service/menu)
+- [权限系统](/advanced/backend/permissions)

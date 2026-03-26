@@ -1,6 +1,6 @@
 # 架构概述
 
-Dux PHP Admin 基于 Dux Lite 的模块化启动流程，核心由以下部分组成：
+Dux AI 的框架层基于 Dux Lite 的模块化启动流程，管理端由 DVHA Pro 承载，核心由以下部分组成：
 
 - **应用入口**：`public/index.php` 调用 `Core\App::create()` 并启动 Web。
 - **Bootstrap**：注册配置、路由、事件、资源与命令行。

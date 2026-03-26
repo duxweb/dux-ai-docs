@@ -73,13 +73,13 @@
 
 如果你已经确认自己要扩哪一层，可以继续看这些页面：
 
-- [注册服务商协议](/dev/register-provider-protocol)
-- [注册解析驱动](/dev/register-parse-driver)
-- [注册机器人驱动](/dev/register-bot-driver)
+- [注册服务商协议](/extensions/ai/register-provider-protocol)
+- [注册解析驱动](/extensions/ai/register-parse-driver)
+- [注册机器人驱动](/extensions/bot/register-bot-driver)
 
 如果你只是想先复用现有能力，而不是自己扩展实现，也建议先从：
 
-- [开发概览](/dev/overview)
-- [智能体服务](/dev/agent)
-- [能力扩展](/dev/tool-capability)
+- [开发概览](/extensions/ai/overview)
+- [智能体服务](/extensions/ai/agent)
+- [能力扩展](/extensions/ai/tool-capability)
 开始看。
