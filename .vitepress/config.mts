@@ -27,7 +27,7 @@ export default withDuxTheme({
     siteTitle: 'Dux AI',
     nav: [
       { text: '使用', link: '/usage/introduction', activeMatch: '/usage/' },
-      { text: '基础框架', link: '/foundation/introduction', activeMatch: '/foundation/' },
+      { text: '基础', link: '/foundation/introduction', activeMatch: '/foundation/' },
       { text: '开发', link: '/dev/overview', activeMatch: '/dev/' },
       { text: 'API', link: '/api/overview', activeMatch: '/api/' },
       { text: '扩展', link: '/extensions/device-control/introduction', activeMatch: '/extensions/' },
@@ -54,57 +54,6 @@ export default withDuxTheme({
       },
     ],
     sidebar: {
-      '/foundation/': [
-        {
-          text: '开始',
-          items: [
-            { text: '基础框架首页', link: '/foundation/' },
-            { text: '基础框架概览', link: '/foundation/introduction' },
-            { text: '快速开始入口', link: '/foundation/started' },
-            { text: '基础框架快速开始', link: '/foundation/getting-started' },
-            { text: '一体化模块架构', link: '/foundation/architecture' },
-            { text: '目录结构', link: '/foundation/directory-structure' },
-            { text: '前端基座工作机制', link: '/foundation/frontend-base' },
-            { text: '前端基座更新', link: '/foundation/frontend-base-update' },
-          ],
-        },
-        {
-          text: '基础配置',
-          items: [
-            { text: '系统配置', link: '/foundation/configuration' },
-            { text: '配置参考', link: '/foundation/config-reference' },
-            { text: '数据库配置', link: '/foundation/database' },
-            { text: '缓存配置', link: '/foundation/cache' },
-          ],
-        },
-        {
-          text: '系统使用',
-          items: [
-            { text: 'System 模块概览', link: '/foundation/system-overview' },
-            { text: '用户与权限', link: '/foundation/user-permissions' },
-            { text: '权限说明', link: '/foundation/permissions' },
-            { text: '数据管理', link: '/foundation/data-management' },
-            { text: '系统配置（数据库）', link: '/foundation/system-configuration' },
-            { text: '日志与审计', link: '/foundation/logging-audit' },
-          ],
-        },
-        {
-          text: '开发',
-          items: [
-            { text: '框架开发总览', link: '/foundation/dev/overview' },
-            { text: '模块开发完整实战', link: '/foundation/module-workflow' },
-          ],
-        },
-        {
-          text: '部署运维',
-          items: [
-            { text: '部署与运维', link: '/foundation/deployment' },
-            { text: '故障排除', link: '/foundation/troubleshooting' },
-            { text: '常见问题', link: '/foundation/faq' },
-            { text: '基础框架社区', link: '/foundation/community' },
-          ],
-        },
-      ],
       '/foundation/dev/': [
         {
           text: '开始',
@@ -189,6 +138,57 @@ export default withDuxTheme({
             { text: '开发工具', link: '/foundation/dev/tools-deployment/development-tools' },
             { text: '命令速查表', link: '/foundation/dev/tools-deployment/cli-cheatsheet' },
             { text: '部署指南', link: '/foundation/dev/tools-deployment/deployment' },
+          ],
+        },
+      ],
+      '/foundation/': [
+        {
+          text: '开始',
+          items: [
+            { text: '基础框架首页', link: '/foundation/' },
+            { text: '基础框架概览', link: '/foundation/introduction' },
+            { text: '快速开始入口', link: '/foundation/started' },
+            { text: '基础框架快速开始', link: '/foundation/getting-started' },
+            { text: '一体化模块架构', link: '/foundation/architecture' },
+            { text: '目录结构', link: '/foundation/directory-structure' },
+            { text: '前端基座工作机制', link: '/foundation/frontend-base' },
+            { text: '前端基座更新', link: '/foundation/frontend-base-update' },
+          ],
+        },
+        {
+          text: '基础配置',
+          items: [
+            { text: '系统配置', link: '/foundation/configuration' },
+            { text: '配置参考', link: '/foundation/config-reference' },
+            { text: '数据库配置', link: '/foundation/database' },
+            { text: '缓存配置', link: '/foundation/cache' },
+          ],
+        },
+        {
+          text: '系统使用',
+          items: [
+            { text: 'System 模块概览', link: '/foundation/system-overview' },
+            { text: '用户与权限', link: '/foundation/user-permissions' },
+            { text: '权限说明', link: '/foundation/permissions' },
+            { text: '数据管理', link: '/foundation/data-management' },
+            { text: '系统配置（数据库）', link: '/foundation/system-configuration' },
+            { text: '日志与审计', link: '/foundation/logging-audit' },
+          ],
+        },
+        {
+          text: '开发',
+          items: [
+            { text: '框架开发总览', link: '/foundation/dev/overview' },
+            { text: '模块开发完整实战', link: '/foundation/module-workflow' },
+          ],
+        },
+        {
+          text: '部署运维',
+          items: [
+            { text: '部署与运维', link: '/foundation/deployment' },
+            { text: '故障排除', link: '/foundation/troubleshooting' },
+            { text: '常见问题', link: '/foundation/faq' },
+            { text: '基础框架社区', link: '/foundation/community' },
           ],
         },
       ],
