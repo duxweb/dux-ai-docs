@@ -26,6 +26,7 @@ export default withDuxTheme({
   themeConfig: {
     siteTitle: 'Dux AI',
     nav: [
+      { text: '首页', link: 'https://ai.dux.cn/' },
       { text: '使用', link: '/usage/introduction', activeMatch: '^/usage/' },
       { text: '基础', link: '/foundation/introduction', activeMatch: '^/foundation/' },
       { text: '高级', link: '/advanced/overview', activeMatch: '^/advanced/' },
